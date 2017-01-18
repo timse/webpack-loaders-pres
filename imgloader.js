@@ -1,5 +1,7 @@
 const loader = function(content) {
-  return `module.exports = '<img src="data:image/png;base64,${content.toString('base64')}"/>'`;
+  const fileName = 'whale.png';
+  this.emitFile(fileName, content);
+  return `module.exports = '<img src="${fileName}"/>'`;
 }
 loader.raw = true;
 
