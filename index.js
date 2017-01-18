@@ -1,3 +1,5 @@
+import x from './dep.txt';
 
-console.log('hello world!');
+document.write(x);
+
 setInterval(() => window.location.reload(), 2500);
