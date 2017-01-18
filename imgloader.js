@@ -1,7 +1,5 @@
 const loader = function(content) {
-  const fileName = 'whale.png';
-  this.emitFile(fileName, content);
-  return `module.exports = '<img src="${fileName}"/>'`;
+  return `module.exports = '<img src="${content}"/>'`;
 }
 loader.raw = true;
 

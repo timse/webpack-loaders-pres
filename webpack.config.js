@@ -17,7 +17,8 @@ module.exports = {
       {
         test: /.png$/,
         use: [
-          {loader: './imgloader.js'}
+          {loader: './imgloader.js'},
+          {loader: 'file-loader'}
         ]
       }
     ]
