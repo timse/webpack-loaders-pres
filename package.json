@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "nodemon --exec webpack --ignore dist"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.26.0",
+    "nodemon": "^1.11.0",
+    "webpack": "beta"
+  }
+}
