@@ -1,5 +1,5 @@
 const loader = function(content) {
-  return `module.exports = '${content.toString('base64')}'`;
+  return `module.exports = '<img src="data:image/png;base64,${content.toString('base64')}"/>'`;
 }
 loader.raw = true;
 
