@@ -1,3 +1,3 @@
-import x from './dep';
+import x from './dep.txt';
 
 document.write(x);

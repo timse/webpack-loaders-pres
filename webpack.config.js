@@ -6,5 +6,15 @@ module.exports = {
     path: 'dist',
     filename: 'main.js'
   },
+  module: {
+    rules: [
+      {
+        test: /.txt$/,
+        use: [
+          {loader: './loader.js'}
+        ]
+      }
+    ]
+  },
   plugins: [new HtmlWebpackPlugin()]
 };
