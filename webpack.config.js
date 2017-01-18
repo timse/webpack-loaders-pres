@@ -11,7 +11,13 @@ module.exports = {
       {
         test: /.txt$/,
         use: [
-          {loader: './loader.js'}
+          {loader: './textloader.js'}
+        ]
+      },
+      {
+        test: /.png$/,
+        use: [
+          {loader: './imgloader.js'}
         ]
       }
     ]

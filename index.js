@@ -1,3 +1,5 @@
-import x from './dep.txt';
+import txt from './dep.txt';
+import image from './image.png';
 
-document.write(x);
+document.write(txt);
+document.write(image);
