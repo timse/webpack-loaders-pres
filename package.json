@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "nodemon --exec webpack --ignore dist",
+    "serve": "http-server dist -p 8000"
+  },
+  "dependencies": {
+    "datauri": "^1.0.5",
+    "file-loader": "^0.9.0",
+    "get-pixels": "^3.3.0",
+    "html-webpack-plugin": "^2.26.0",
+    "http-server": "^0.9.0",
+    "image-size": "^0.5.1",
+    "nodemon": "^1.11.0",
+    "sharp": "^0.17.1",
+    "webpack": "beta"
+  }
+}
